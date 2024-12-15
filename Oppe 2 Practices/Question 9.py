@@ -16,3 +16,4 @@ def write_AP(a_1,d,n):
     return f
 
 print(write_AP(1,2,3))
+
