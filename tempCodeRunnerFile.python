@@ -1,0 +1,24 @@
+ 
+
+def binarySearch(L, k):
+    L.sort()
+    low = 0
+    high = len(L) - 1
+    comparisons = 0
+
+    while low <= high:
+        mid = (low + high) // 2
+        comparisons += 1
+        if L[mid] == k:
+            return mid, comparisons
+        elif L[mid] < k:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return -1, comparisons
+
+
+
+l =[12,52,8,56,2,12,42,36,8]
+print(binarySearch(l,8)) 

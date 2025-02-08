@@ -1,0 +1,1 @@
+print(Prime_Function(6))
