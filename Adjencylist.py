@@ -34,4 +34,4 @@ def Neighbour(Amat,v):  # Note here Undirected Graph just Like the Arline Route 
        
 print(Neighbour(A,0))
 
-"""Here there will be a problem is that these is Applicable for Only Undirect Graph there the Rows and the Columns are the Same"""
+"""Here there will be a problem is that these is Applicable for Only Undirect Graph there the Rows and the Columns are the Same """
