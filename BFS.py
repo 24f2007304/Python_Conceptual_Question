@@ -9,7 +9,7 @@ class Queue:
         
     def dequeue(self):
         if not self.is_empty():
-            return self.queue.pop()
+            return self.queue.popleft() # Remove the first element of the Queue
         else:
             return None  # or raise an exception
 
